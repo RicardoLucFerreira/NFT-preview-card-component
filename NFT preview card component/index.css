@@ -1,0 +1,83 @@
+/*fonte 300*/@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&display=swap');
+/*fonte 400*/@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+/*fonte 600*/@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(217, 54%, 11%);
+    font-family: Outfit, sans-serif;    
+    color: white;
+}
+
+.card{
+    position: absolute;
+    max-width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    left: 50%;
+    top: 50%;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 30px 13px 19px  hsla(216, 54%, 11%, 0.514),
+    5px 30px 13px 47px hsla(217, 82%, 9%, 0.301)
+}
+
+.Equilibrium_img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+p{
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 35px;
+}
+
+
+.icone_eth{
+    width: 10px;
+    margin-right: 5px;
+}
+
+.valor_nft{
+    font-weight: 600;
+    color: hsl(178, 100%, 50%)
+}
+
+.reloginho{
+    margin-left: 110px;
+    margin-right: 5px;
+}
+
+.data_valor{
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+    margin-right: 0px;
+    padding-right: 0px;
+
+}
+
+hr{
+    margin-top: 25px;
+    border: none;
+    height: 1px;
+    background: #ffffff;
+
+}
+.avatar_jules{
+    width: 35px;
+    border: 2px solid gray;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+.credito_criador{
+    vertical-align: 18px;
+    color: hsl(215, 51%, 70%);
+}
